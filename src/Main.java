@@ -53,7 +53,7 @@ public class Main {
     public static void vyvod(double[][] z1) {
         for (int i = 0; i < z1.length; i++) {
             for (int j = 0; j < z1[i].length; j++) {
-                System.out.print(String.format("%10.5f", z1[i][j]) + " ");
+                System.out.print(String.format("%7.5f", z1[i][j]) + " ");
             }
             System.out.println();
         }
